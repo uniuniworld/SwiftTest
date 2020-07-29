@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController, SampleDelegate {
     
+    @IBOutlet weak var selectPrefecture: UILabel!
+    
+    @IBOutlet weak var label: UILabel!
+    
     func setColor(color: UIColor) {
         self.view.backgroundColor = color
     }
