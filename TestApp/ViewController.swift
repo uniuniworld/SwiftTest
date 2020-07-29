@@ -8,8 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, SampleDelegate {
+    
+    func setColor(color: UIColor) {
+        self.view.backgroundColor = color
+    }
+    
+    @IBAction func setNext(_ sender: Any) {
+        performSegue(withIdentifier: "next", sender: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "next" {
+            let nextViewController = segue.destination as! NextViewController
+            //nextViewController.delegate = self
+        }
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
