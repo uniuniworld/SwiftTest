@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C550F7624D812D800AE808B /* greenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C550F7524D812D700AE808B /* greenViewController.swift */; };
 		3C823CC124D0FEDC00F71094 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C823CC024D0FEDC00F71094 /* AppDelegate.swift */; };
 		3C823CC324D0FEDC00F71094 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C823CC224D0FEDC00F71094 /* SceneDelegate.swift */; };
 		3C823CC524D0FEDC00F71094 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C823CC424D0FEDC00F71094 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C550F7524D812D700AE808B /* greenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greenViewController.swift; sourceTree = "<group>"; };
 		3C823CBD24D0FEDC00F71094 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C823CC024D0FEDC00F71094 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C823CC224D0FEDC00F71094 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				3C823CC924D0FEDD00F71094 /* Assets.xcassets */,
 				3C823CCB24D0FEDD00F71094 /* LaunchScreen.storyboard */,
 				3C823CCE24D0FEDD00F71094 /* Info.plist */,
+				3C550F7524D812D700AE808B /* greenViewController.swift */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				3C823CC124D0FEDC00F71094 /* AppDelegate.swift in Sources */,
 				3C823CC324D0FEDC00F71094 /* SceneDelegate.swift in Sources */,
 				3C823CD724D139CE00F71094 /* CollectionViewController.swift in Sources */,
+				3C550F7624D812D800AE808B /* greenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

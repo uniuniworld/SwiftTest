@@ -25,7 +25,7 @@ class ViewController: UIViewController, SampleDelegate {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "next" {
             let nextViewController = segue.destination as! NextViewController
-            //nextViewController.delegate = self
+            nextViewController.delegate = self
         }
     }
     

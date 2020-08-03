@@ -34,6 +34,20 @@ class NextViewController: UIViewController {
     
     @IBAction func greenButton(_ sender: Any) {
         delegate?.setColor(color: UIColor.green)
+        
+        performSegue(withIdentifier: "green", sender: nil)
+        
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "green" {
+            let gVC = segue.destination as! greenViewController
+            gVC.color = "greeen"
+
+            
+            
+        }
     }
     
 
