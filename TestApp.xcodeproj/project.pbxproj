@@ -18,6 +18,11 @@
 		3C823CD724D139CE00F71094 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C823CD624D139CE00F71094 /* CollectionViewController.swift */; };
 		3C823CDA24D139DC00F71094 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C823CD824D139DC00F71094 /* CollectionViewCell.swift */; };
 		3C823CDB24D139DC00F71094 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C823CD924D139DC00F71094 /* CollectionViewCell.xib */; };
+		3CB73E1224DDA8B100A65681 /* KanaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB73E1124DDA8B100A65681 /* KanaViewController.swift */; };
+		3CB73E1424DDA8C500A65681 /* KiriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB73E1324DDA8C500A65681 /* KiriViewController.swift */; };
+		3CDA3F5624E01CB500CF0646 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDA3F5524E01CB500CF0646 /* Protocol.swift */; };
+		3CDA3F5824E01E1200CF0646 /* John.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDA3F5724E01E1200CF0646 /* John.swift */; };
+		3CDA3F5A24E01E1C00CF0646 /* Jack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDA3F5924E01E1C00CF0646 /* Jack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +39,11 @@
 		3C823CD624D139CE00F71094 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		3C823CD824D139DC00F71094 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		3C823CD924D139DC00F71094 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		3CB73E1124DDA8B100A65681 /* KanaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaViewController.swift; sourceTree = "<group>"; };
+		3CB73E1324DDA8C500A65681 /* KiriViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiriViewController.swift; sourceTree = "<group>"; };
+		3CDA3F5524E01CB500CF0646 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		3CDA3F5724E01E1200CF0646 /* John.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = John.swift; sourceTree = "<group>"; };
+		3CDA3F5924E01E1C00CF0646 /* Jack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,8 @@
 		3C823CBF24D0FEDC00F71094 /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
+				3CDA3F5424E01C8E00CF0646 /* DelegateTest */,
+				3CB73E1024DDA89000A65681 /* delegate */,
 				3C823CC024D0FEDC00F71094 /* AppDelegate.swift */,
 				3C823CC224D0FEDC00F71094 /* SceneDelegate.swift */,
 				3C823CC424D0FEDC00F71094 /* ViewController.swift */,
@@ -80,6 +92,25 @@
 				3C550F7524D812D700AE808B /* greenViewController.swift */,
 			);
 			path = TestApp;
+			sourceTree = "<group>";
+		};
+		3CB73E1024DDA89000A65681 /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				3CB73E1124DDA8B100A65681 /* KanaViewController.swift */,
+				3CB73E1324DDA8C500A65681 /* KiriViewController.swift */,
+			);
+			path = delegate;
+			sourceTree = "<group>";
+		};
+		3CDA3F5424E01C8E00CF0646 /* DelegateTest */ = {
+			isa = PBXGroup;
+			children = (
+				3CDA3F5524E01CB500CF0646 /* Protocol.swift */,
+				3CDA3F5724E01E1200CF0646 /* John.swift */,
+				3CDA3F5924E01E1C00CF0646 /* Jack.swift */,
+			);
+			path = DelegateTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,8 +190,13 @@
 				3C823CDA24D139DC00F71094 /* CollectionViewCell.swift in Sources */,
 				3C823CC124D0FEDC00F71094 /* AppDelegate.swift in Sources */,
 				3C823CC324D0FEDC00F71094 /* SceneDelegate.swift in Sources */,
+				3CB73E1224DDA8B100A65681 /* KanaViewController.swift in Sources */,
+				3CB73E1424DDA8C500A65681 /* KiriViewController.swift in Sources */,
 				3C823CD724D139CE00F71094 /* CollectionViewController.swift in Sources */,
+				3CDA3F5824E01E1200CF0646 /* John.swift in Sources */,
 				3C550F7624D812D800AE808B /* greenViewController.swift in Sources */,
+				3CDA3F5A24E01E1C00CF0646 /* Jack.swift in Sources */,
+				3CDA3F5624E01CB500CF0646 /* Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
