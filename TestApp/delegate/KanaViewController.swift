@@ -12,10 +12,6 @@ import UIKit
 
 class KanaViewController: UIViewController, kiriDelegate{
     
-    func kill(name: String) {
-        self.label.text  = name
-    }
-    
 
     @IBOutlet weak var label: UILabel!
     
@@ -34,15 +30,12 @@ class KanaViewController: UIViewController, kiriDelegate{
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func kill(name: String) {
+        self.label.text  = name
     }
-    */
-
+    
+    @IBAction func tapedButton(_ sender: Any) {
+        
+        
+    }
 }
